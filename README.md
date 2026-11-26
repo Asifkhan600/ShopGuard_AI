@@ -21,7 +21,7 @@ ShopGuard AI examines online shop URL characteristics, domain registration attri
 - **Raw Features:** 26 columns
 - **Class Distribution:** 579 `fraudulent` (50.8%) and 561 `legitimate` (49.2%)
 
-The raw dataset file is not committed to this repository. See [`data/README.md`](data/README.md) for dataset schema details and setup instructions.
+The dataset is included at [`data/Fraudulent_online_shops_dataset.csv`](data/Fraudulent_online_shops_dataset.csv). See [`data/README.md`](data/README.md) for schema details and usage notes.
 
 ## Technology Stack
 
@@ -68,7 +68,7 @@ ShopGuard-AI/
    ```bash
    pip install -r requirements.txt
    ```
-3. Place `Fraudulent_online_shops_dataset.csv` into the `data/` directory (see [`data/README.md`](data/README.md)), or configure your Google Drive path if running in Google Colab.
+3. The dataset is already included at `data/Fraudulent_online_shops_dataset.csv`. If running locally in Jupyter, point `DATA_DIR` in the notebook to `../data`; if running in Google Colab, upload or sync `data/Fraudulent_online_shops_dataset.csv` to your Drive folder.
 4. Open and run [`notebooks/Shopguard_AI.ipynb`](notebooks/Shopguard_AI.ipynb).
 
 ## Documentation

@@ -32,7 +32,7 @@ ShopGuard-AI/
 
 ## 3. Dataset Specification
 
-- **Source File:** `Fraudulent_online_shops_dataset.csv` (stored externally / not committed to Git)
+- **Source File:** [`data/Fraudulent_online_shops_dataset.csv`](../data/Fraudulent_online_shops_dataset.csv) (included in repository)
 - **Dimensions:** 1,140 rows × 26 original columns
 - **Duplicate Rows:** 0
 - **Target Variable (`Label`):**

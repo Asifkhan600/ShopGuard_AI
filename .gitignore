@@ -11,8 +11,9 @@ env/
 # Google Colab and Jupyter
 .ipynb_checkpoints/
 
-# Dataset files
+# Dataset files (keep primary project dataset tracked)
 data/*.csv
+!data/Fraudulent_online_shops_dataset.csv
 data/*.xlsx
 
 # Trained models

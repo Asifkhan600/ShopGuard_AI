@@ -1,6 +1,6 @@
 # Data Directory
 
-This directory holds local dataset files for **ShopGuard AI**. Raw `.csv` and `.xlsx` data files are excluded from version control via `.gitignore`.
+This directory contains the project dataset [`Fraudulent_online_shops_dataset.csv`](Fraudulent_online_shops_dataset.csv). Other temporary `.csv` and `.xlsx` files are ignored via `.gitignore`.
 
 ## Expected Dataset
 
@@ -48,6 +48,7 @@ This directory holds local dataset files for **ShopGuard AI**. Raw `.csv` and `.
 - `Tranco List rank` uses `-1` when a domain is not present in the standard Tranco list.
 - `Domain registration date` contains `"Hidden"` entries alongside standard timestamps.
 
-## Setup
+## Usage
 
-Place `Fraudulent_online_shops_dataset.csv` inside `data/` before running local scripts, or update `DATA_DIR` in [`notebooks/Shopguard_AI.ipynb`](../notebooks/Shopguard_AI.ipynb) when running in Google Colab.
+- **Local Jupyter:** Set `DATA_DIR = "../data"` in [`notebooks/Shopguard_AI.ipynb`](../notebooks/Shopguard_AI.ipynb) when running from `notebooks/`.
+- **Google Colab:** Either clone the repository in Colab (`!git clone https://github.com/Asifkhan600/ShopGuard_AI.git`) and set `DATA_DIR = "/content/ShopGuard_AI/data"`, or copy `Fraudulent_online_shops_dataset.csv` into your Google Drive `DATA_DIR`.
