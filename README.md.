@@ -1,0 +1,55 @@
+
+# ShopGuard AI
+
+A machine learning-based fraud detection system for identifying potentially fraudulent e-commerce websites.
+
+## Project Overview
+
+ShopGuard AI analyzes website characteristics, domain information, SSL certificate attributes, payment features, and online trust indicators to identify patterns associated with fraudulent online shops.
+
+## Objectives
+
+- Analyze fraudulent and legitimate online shops.
+- Perform exploratory data analysis.
+- Investigate missing values and data quality.
+- Apply feature engineering and preprocessing.
+- Develop and compare machine learning models.
+- Evaluate model performance.
+- Investigate model interpretability.
+
+## Technology Stack
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Google Colab
+- Jupyter Notebook
+
+## Project Structure
+
+```text
+ShopGuard-AI/
+├── notebooks/
+├── data/
+├── models/
+├── reports/
+├── src/
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
+
+## Dataset
+
+The dataset is not included in this repository. Refer to `data/README.md` for dataset access and setup instructions.
+
+## Execution
+
+Open the notebook in Google Colab, configure the dataset path, install the required dependencies, and execute the notebook cells.
+
+## Project Status
+
+Under development.
