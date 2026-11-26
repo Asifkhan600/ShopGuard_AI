@@ -1,6 +1,6 @@
 # Source Code (`src/`)
 
-This directory is reserved for modular, reusable Python scripts extracted and refactored from [`notebooks/ShopGuard_AI.ipynb`](../notebooks/ShopGuard_AI.ipynb).
+This directory is reserved for modular, reusable Python scripts extracted and refactored from [`notebooks/Shopguard_AI.ipynb`](../notebooks/Shopguard_AI.ipynb).
 
 ## Planned Modules
 

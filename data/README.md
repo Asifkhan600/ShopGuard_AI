@@ -50,4 +50,4 @@ This directory holds local dataset files for **ShopGuard AI**. Raw `.csv` and `.
 
 ## Setup
 
-Place `Fraudulent_online_shops_dataset.csv` inside `data/` before running local scripts, or update `DATA_DIR` in [`notebooks/ShopGuard_AI.ipynb`](../notebooks/ShopGuard_AI.ipynb) when running in Google Colab.
+Place `Fraudulent_online_shops_dataset.csv` inside `data/` before running local scripts, or update `DATA_DIR` in [`notebooks/Shopguard_AI.ipynb`](../notebooks/Shopguard_AI.ipynb) when running in Google Colab.

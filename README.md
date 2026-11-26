@@ -41,7 +41,7 @@ ShopGuard-AI/
 ├── .gitignore
 │
 ├── notebooks/
-│   └── ShopGuard_AI.ipynb
+│   └── Shopguard_AI.ipynb
 │
 ├── data/
 │   └── README.md
@@ -69,7 +69,7 @@ ShopGuard-AI/
    pip install -r requirements.txt
    ```
 3. Place `Fraudulent_online_shops_dataset.csv` into the `data/` directory (see [`data/README.md`](data/README.md)), or configure your Google Drive path if running in Google Colab.
-4. Open and run [`notebooks/ShopGuard_AI.ipynb`](notebooks/ShopGuard_AI.ipynb).
+4. Open and run [`notebooks/Shopguard_AI.ipynb`](notebooks/Shopguard_AI.ipynb).
 
 ## Documentation
 
@@ -80,4 +80,4 @@ ShopGuard-AI/
 
 ## Project Status
 
-Active development — exploratory data analysis, data quality validation, and feature redundancy audits are complete in `notebooks/ShopGuard_AI.ipynb`; modularization into `src/` and persisted model training are ongoing.
+Active development — exploratory data analysis, data quality validation, and feature redundancy audits are complete in `notebooks/Shopguard_AI.ipynb`; modularization into `src/` and persisted model training are ongoing.

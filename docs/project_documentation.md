@@ -4,7 +4,7 @@
 
 **ShopGuard AI** is a machine learning project aimed at detecting potentially fraudulent e-commerce websites using domain structure, SSL certificate metadata, payment indicators, and online reputation signals.
 
-The primary analysis notebook is located at [`notebooks/ShopGuard_AI.ipynb`](../notebooks/ShopGuard_AI.ipynb).
+The primary analysis notebook is located at [`notebooks/Shopguard_AI.ipynb`](../notebooks/Shopguard_AI.ipynb).
 
 ---
 
@@ -16,7 +16,7 @@ ShopGuard-AI/
 ├── requirements.txt              # Python dependencies
 ├── .gitignore                    # Ignored datasets, models, caches, and secrets
 ├── notebooks/
-│   └── ShopGuard_AI.ipynb        # Main exploratory, validation, and audit notebook
+│   └── Shopguard_AI.ipynb        # Main exploratory, validation, and audit notebook
 ├── data/
 │   └── README.md                 # Dataset schema, anomalies, and setup instructions
 ├── src/
@@ -53,7 +53,7 @@ ShopGuard-AI/
 
 ## 4. Notebook Workflow Summary
 
-`notebooks/ShopGuard_AI.ipynb` (181 cells) documents the iterative investigation of the dataset in Google Colab:
+`notebooks/Shopguard_AI.ipynb` (181 cells) documents the iterative investigation of the dataset in Google Colab:
 
 1. **Environment & Data Loading:**
    - Configures Drive directories (`/content/drive/MyDrive/ShopGuard_AI` and `/content/drive/MyDrive/fake_store_detector`) and imports `pandas`, `numpy`, `matplotlib`, `seaborn`, `scipy`, and `scikit-learn`.
